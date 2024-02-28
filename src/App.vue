@@ -24,7 +24,9 @@ export default {
   text-align: center;
   
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 nav {
   padding: 30px;
   background-color: transparent !important;

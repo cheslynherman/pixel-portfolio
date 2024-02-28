@@ -28,7 +28,7 @@
 
                             </li>
                             <li class="nav-item">
-                                <router-link to="/about">About</router-link>
+                                <router-link to="/contact">Contact</router-link>
 
                             </li>
                         </ul>
@@ -69,6 +69,9 @@ img {
 
 .offcanvas {
     background-color: transparent !important;
+}
+.offcanvas-header {
+    margin-left: auto;
 }
 .close-btn {
     width: 40px;
