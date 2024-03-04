@@ -3,6 +3,7 @@
     <h1>This is an about page</h1>
   </div>
 </template> -->
+
 <template>
   <div class="about" :style="image">
     <NavBarComp />
@@ -26,13 +27,15 @@
 
 
           </p><br>
-          <p>I'm a gamer, love playing football, going on hikes and swimming. I think crypto is super cool and one day I'll own a couple of supercars. Just a few random things for you to know about me. Hope you enjoy the rest of this portfolio and have fun!</p>
+          <p>I'm a gamer, love playing football, going on hikes and swimming. I think crypto is super cool and one day
+            I'll own a couple of supercars. Just a few random things for you to know about me. Hope you enjoy the rest
+            of this portfolio and have fun!</p>
         </div>
         <div class="rightSide">
           <div class="picture">
 
             <img src="https://i.ibb.co/6rjzDSm/C12-Cheslyn-Herman.jpg" alt="Cheslyn" class="pic img-fluid">
-            
+
           </div>
           <div>
             <h2>Specialities</h2>
@@ -50,145 +53,75 @@
       </div>
     </div>
 
-    <div class="skills container-fluid">
-      <h2>Soft Skills</h2>
-      <div class="skills m-auto">
-        <label for="progress-bar" class="d-flex justify-content-center"
-          >Leadership Skills</label
-        >
-        <div
-          class="progress m-2"
-          role="progressbar"
-          aria-label="Animated striped example 20px high"
-          aria-valuenow="75"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            style="width: 85%"
-          ></div>
+    <div class="passionBoard">
+      <h2>Passions & Visions</h2>
+      <div class="slider container-fluid">
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <label for="progress-bar" class="d-flex justify-content-center"
-          >Interpersonal Skills</label
-        >
-        <div
-          class="progress m-2"
-          role="progressbar"
-          aria-label="Animated striped example 20px high"
-          aria-valuenow="75"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            style="width: 70%"
-          ></div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <label for="progress-bar" class="d-flex justify-content-center"
-          >Analytical Skills</label
-        >
-        <div
-          class="progress m-2"
-          role="progressbar"
-          aria-label="Animated striped example 20px high"
-          aria-valuenow="75"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            style="width: 80%"
-          ></div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <label for="progress-bar" class="d-flex justify-content-center"
-          >Communication Skills</label
-        >
-        <div
-          class="progress m-2"
-          role="progressbar"
-          aria-label="Animated striped example 20px high"
-          aria-valuenow="75"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            style="width: 91%"
-          ></div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <label for="progress-bar" class="d-flex justify-content-center"
-          >Organizational Skills</label
-        >
-        <div
-          class="progress m-2"
-          role="progressbar"
-          aria-label="Animated striped example 20px high"
-          aria-valuenow="75"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            style="width: 69%"
-          ></div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="tech container-fluid">
-      <h2>
-        Technical Skills
-      </h2>
-      <div class="skill-imgs">
-        <div class="blocks">
-          <img src="https://i.postimg.cc/0QdX6dpv/icons8-bootstrap-150.png" alt="Bootstrap" class="logos img-fluid">
-          <p>Bootstrap</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/DyfHXDjM/icons8-css-150.png" alt="CSS" class="logos img-fluid">
-          <p>CSS</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/kMvLD9cS/icons8-figma-150-1.png" alt="Figma" class="logos img-fluid">
-          <p>Figma</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/FH8BwK9M/icons8-html-150.png" alt="HTML" class="logos img-fluid">
-          <p>HTML</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/sXR0D0GK/icons8-js-150-1.png" alt="JS" class="logos img-fluid">
-          <p>JS</p>
-        </div>
-      </div>
-      <div class="skill-imgs2">
-        <div class="blocks">
-          <img src="https://i.postimg.cc/zXBJY5HJ/icons8-mysql-100-1.png" alt="MySQL" class="logos img-fluid">
-          <p>MySQL</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/JzGFTXW3/icons8-wordpress-150-1.png" alt="Wordpress" class="logos img-fluid">
-          <p>WordPress</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/JhX28W0G/icons8-vuejs-128.png" alt="Vue" class="logos img-fluid">
-          <p>Vue.JS</p>
-        </div>
-        <div class="blocks">
-          <img src="https://i.postimg.cc/Kv9VrNCv/icons8-node-js-128.png" alt="Node" class="logos img-fluid">
-          <p>Node.JS</p>
-        </div>
-        
-      </div>
-    </div>
-    <div class="startbtn">
-        <router-link to="/projects">
 
-          <button class="start">
-            Next Level
-          </button>
-        </router-link>
-      </div>
+
+    <div class="startbtn">
+      <router-link to="/projects">
+
+        <button class="start">
+          Next Level
+        </button>
+      </router-link>
+    </div>
     <FooterComp />
   </div>
 </template>
@@ -272,55 +205,16 @@ p {
 .picture {
   margin: 20px;
 }
-.skills {
-  margin-top: 50px;
-  width: 85%;
-}
-
-.progress-bar {
-  background-color: transparent;
-  color: white !important;
-}
-
-.progress {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 0px;
-  height: 30px;
-}
-
-.progress-bar-striped {
-    background-image: linear-gradient(45deg,rgba(255,255,255,100) 25%,transparent 25%,transparent 50%,rgba(255,255,255,100) 50%,rgba(255,255,255,100) 75%,transparent 75%,transparent);
-    background-size: var(--bs-progress-height) var(--bs-progress-height);
-}
-.tech {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.skill-imgs {
+.slider {
   display: flex;
-  justify-content: space-between;
-  margin: 20px;
-}
-.skill-imgs2 {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-}
-
-.logos {
-  /* aspect-ratio: 5/4; */
-  height: 100px; 
-  margin-bottom: 20px;
-}
-.blocks {
-  padding: 20px;
-  border: 1px solid white;
-  width: 250px;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
 }
 .startbtn {
   margin-top: 30px;
 }
+
 .start {
   padding: 15px;
   width: 450px;
@@ -328,5 +222,4 @@ p {
   background: transparent;
   border: 1px solid white;
 }
-
 </style>
