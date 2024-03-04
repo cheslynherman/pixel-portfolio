@@ -11,9 +11,12 @@
         <h2>Insert Coin</h2>
       </div>
       <div class="startbtn">
-        <button class="start">
-          Player 1 Start
-        </button>
+        <router-link to="/about">
+
+          <button class="start">
+            Player 1 Start
+          </button>
+        </router-link>
       </div>
     </div>
     <FooterComp />
@@ -48,6 +51,7 @@ export default {
   background-size: cover;
   object-fit: cover;
 }
+
 .landing {
   /* border: 1px solid white; */
   height: 80vh;
@@ -57,25 +61,32 @@ export default {
   justify-content: center;
   color: white;
 }
-.name, .insert {
+
+.name,
+.insert {
   margin-bottom: 40px;
 }
+
 .insert {
-  -webkit-animation: fade-in 1s ease-in infinite ;
-	        animation: fade-in 1s ease-in infinite ;
+  -webkit-animation: fade-in 1s ease-in infinite;
+  animation: fade-in 1s ease-in infinite;
 }
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -88,7 +99,7 @@ export default {
   background: transparent;
   border: 1px solid white;
 }
+
 h2 {
   font-size: 26px;
-}
-</style>
+}</style>

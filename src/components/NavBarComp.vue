@@ -24,7 +24,11 @@
                                 <router-link to="/about">About</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link to="/about">Projects</router-link>
+                                <router-link to="/projects">Projects</router-link>
+
+                            </li>
+                            <li class="nav-item">
+                                <router-link to="/resume">Resum&eacute;</router-link>
 
                             </li>
                             <li class="nav-item">
@@ -54,7 +58,7 @@ img {
 .menu {
     padding: 0px !important;
     border: 3px solid white;
-    
+    border-radius: 0px;
 }
 .navbar {
     background-color: transparent !important;
@@ -81,5 +85,6 @@ img {
     height: 65px; 
     border: 3px solid white;
     padding: 10px;
+    border-radius: 0px;
 }
 </style>

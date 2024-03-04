@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="copyright">
-            <p>©️ Built By Cheslyn Herman 2023</p>
+            <p>©️ Built By Cheslyn Herman 2024</p>
         </div>
         <div class="main">
             <div class="up">
