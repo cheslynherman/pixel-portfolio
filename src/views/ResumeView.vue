@@ -117,9 +117,32 @@
             </div>
           </li> -->
         </ul>
+        <a href="../file/Cheslyn Herman Resumé (1).pdf"  target="_blank"   download class="cv">
+          <button class="cv-button">
+            CV
+          </button>
+        </a>
       </div>
     </div>
+    <div class="certificates container-fluid">
+      <h2>Certificates</h2>
+      <div class="images">
+        <div class="card">
+          <img src="https://i.postimg.cc/CLBS3htj/ca79a3f48fe04db786cbb1a453ea1d7b-1.png"
+            class="certs img-fluid card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Hubspot SEO Certificate</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/tCWMrzLs/certificate.png" class="certs img-fluid card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Grizzly New Marketing SEO Certificate</p>
+          </div>
+        </div>
 
+      </div>
+    </div>
     <div class="skills container-fluid">
       <h2>Soft Skills</h2>
       <div class="skills m-auto">
@@ -197,11 +220,13 @@
 
       </div>
     </div>
+
+
     <div class="startbtn">
-      <router-link to="/projects">
+      <router-link to="/contact">
 
         <button class="start">
-          Next Level
+          Final Level
         </button>
       </router-link>
     </div>
@@ -245,6 +270,7 @@ h1 {
 h2 {
   margin: 20px;
 }
+
 .pic {
   border-radius: 150px;
   width: 250px;
@@ -258,10 +284,12 @@ p {
 .picture {
   margin: 20px;
 }
+
 .skills {
   margin-top: 50px;
   width: 85%;
 }
+
 .progress-bar {
   background-color: transparent;
   color: white !important;
@@ -275,18 +303,21 @@ p {
 }
 
 .progress-bar-striped {
-    background-image: linear-gradient(45deg,rgba(255,255,255,100) 25%,transparent 25%,transparent 50%,rgba(255,255,255,100) 50%,rgba(255,255,255,100) 75%,transparent 75%,transparent);
-    background-size: var(--bs-progress-height) var(--bs-progress-height);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 100) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 100) 50%, rgba(255, 255, 255, 100) 75%, transparent 75%, transparent);
+  background-size: var(--bs-progress-height) var(--bs-progress-height);
 }
+
 .tech {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .skill-imgs {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
+
 .skill-imgs2 {
   display: flex;
   justify-content: space-around;
@@ -295,18 +326,23 @@ p {
 
 .logos {
   /* aspect-ratio: 5/4; */
-  height: 100px; 
+  height: 100px;
   margin-bottom: 20px;
 }
+
 .blocks {
   padding: 20px;
   border: 1px solid white;
   width: 250px;
 }
+
 .startbtn {
   margin-top: 30px;
 }
-.start {
+.cv {
+  margin: 40px;
+}
+.start, .cv-button {
   padding: 15px;
   width: 450px;
   color: white;
@@ -461,5 +497,26 @@ p {
 
 .timeline-body>p+p {
   margin-top: 5px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.certs {
+  width: 350px;
+  border-radius: 0px !important;
+}
+.card {
+  width: 350px;
+  background: transparent !important;
+  border: 1px solid white;
+  border-radius: 0px;
+  color: white;
+}
+.card-img-top {
+ 
 }
 </style>
