@@ -54,7 +54,7 @@ export default {
 
 .landing {
   /* border: 1px solid white; */
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,8 +98,30 @@ export default {
   color: white;
   background: transparent;
   border: 1px solid white;
+  box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
+
+
+.start:hover {
+  
+     
+    box-shadow: 0 0 30px 5px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
 h2 {
   font-size: 26px;
-}</style>
+}
+
+
+@media only screen and (max-width: 480px) {
+  .start {
+    width: 90%;
+  }
+}
+</style>

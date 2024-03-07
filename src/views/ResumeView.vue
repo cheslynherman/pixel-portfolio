@@ -117,9 +117,9 @@
             </div>
           </li> -->
         </ul>
-        <a href="../file/Cheslyn Herman Resumé (1).pdf"  target="_blank"   download class="cv">
+        <a href="../file/Cheslyn Herman Resumé (1).pdf" target="_blank" download class="cv">
           <button class="cv-button">
-            CV
+           Download CV
           </button>
         </a>
       </div>
@@ -246,7 +246,7 @@ export default {
   },
   data() {
     return {
-      image: { backgroundImage: 'url(https://i.postimg.cc/BbXttFyp/wp12437846.jpg)' }
+      image: { backgroundImage: 'url(https://i.postimg.cc/jdNGctp1/wp11989501-red-pixel-wallpapers.png)' }
     }
   }
 }
@@ -334,20 +334,48 @@ p {
   padding: 20px;
   border: 1px solid white;
   width: 250px;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.blocks:hover {
+  transform: scale(1.08);
+  transition: all 0.5s;
+  box-shadow: 0 0 8px 3px white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .startbtn {
   margin-top: 30px;
 }
+
 .cv {
   margin: 40px;
 }
-.start, .cv-button {
+
+.start,
+.cv-button {
   padding: 15px;
   width: 450px;
   color: white;
   background: transparent;
   border: 1px solid white;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.start:hover,
+.cv-button:hover {
+  box-shadow: 0 0 30px 5px white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .timeline {
@@ -486,13 +514,15 @@ p {
 }
 
 .timeline-title {
-  margin-top: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color: inherit;
 }
 
 .timeline-body>p,
 .timeline-body>ul {
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .timeline-body>p+p {
@@ -508,15 +538,31 @@ p {
 .certs {
   width: 350px;
   border-radius: 0px !important;
+
 }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+  box-shadow: 0 0 8px 3px white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
 .card {
   width: 350px;
   background: transparent !important;
   border: 1px solid white;
   border-radius: 0px;
   color: white;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
-.card-img-top {
+
+/* .card-img-top {
  
-}
+} */
 </style>

@@ -87,4 +87,17 @@ img {
     padding: 10px;
     border-radius: 0px;
 }
+
+.navbar-toggler, .btn {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.navbar-toggler:hover, .btn:hover {
+    box-shadow: 0 0 30px 5px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
 </style>

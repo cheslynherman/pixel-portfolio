@@ -31,14 +31,16 @@ nav {
   padding: 30px;
   background-color: transparent !important;
 }
-
+body {
+  overflow: auto !important;
+}
 nav a {
   font-weight: bold;
   color: white;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(66, 58, 58);
 }
 
 </style>

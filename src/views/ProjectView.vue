@@ -25,6 +25,7 @@
             </button>
         </div> -->
         <h1>Projects</h1>
+        <p class="swipe">Click below to see what my brains can accomplish</p>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -298,61 +299,73 @@
             </div> -->
             <div class="reviews container-fluid">
                 <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
+                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="Caryn" class="peer-imgs">
                 <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
                     Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
                     individual.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
+                <h3>Ayesha Galant</h3>
+
+                <img src="https://i.ibb.co/2Wv24t9/C12-Ayesha-Galant-Class1-2.jpg" alt="Ayesha" class="peer-imgs">
+                <p>Cheslyn is dedicated and very passionate about his work. Working together makes me motivated to go
+                    above and beyond to reach our goals and of course, having fun while doing so.</p>
+            </div>
+            <div class="reviews container-fluid">
+                <h3>Timothy Barry</h3>
+
+                <img src="https://i.ibb.co/TRkVdgD/C12-Timothy-Barry-2.jpg" alt="Timothy Barry" class="peer-imgs">
                 <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
                     Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
                     individual.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
+                <h3>Ethan Henry Lesar</h3>
+
+                <img src="https://i.ibb.co/pfX3Lfq/C12-C1-Ethan-Lesar-4.jpg" alt="Ethan" class="peer-imgs">
+                <p>I have had the pleasure of working alongside Cheslyn, and I can confidently say that he is an
+                    exceptional team member. He has a remarkable ability to listen to others' ideas and perspectives
+                    with an open mind.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
+                <h3>Lyle Dylan Brown</h3>
+
+                <img src="https://i.ibb.co/4gqPBg5/C12-C-1-Lyle-Brown-3.jpg" alt="Lyle" class="peer-imgs">
+                <p>Cheslyn's extroverted personality is one thats laced with power. His presence allows you to feel
+                    comfortable. He is always ready to have a chat and is allows willing to help with whatever he can in
+                    his capacity.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
+                <h3>Taahirah Ismail</h3>
+
+                <img src="https://i.ibb.co/MDLgWvx/C12-Taahirah-Ismail-3.jpg" alt="Taahirah" class="peer-imgs">
+                <p>Cheslyn is a hard-working individual, and natural-born leader. He has this presence about him that
+                    makes you want to listen and follow him. Generally a great guy to have around.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
+                <h3>Keeno <br>Fourie</h3>
+
+                <img src="https://i.ibb.co/bFM7jDY/C12-Keeno-Fourie.jpg" alt="Keeno" class="peer-imgs">
+                <p>Cheslyn's bright personality and social skills have made him a valuable member of our team. He has a
+                    talent for keeping the team together and his work is always tidy and simple. Working with Cheslyn
+                    has been a great experience.</p>
             </div>
             <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
-            </div>
-            <div class="reviews container-fluid">
-                <h3>Caryn-Jane Lodewyk</h3>
-                <img src="https://i.ibb.co/G9kNrLh/C12-C1-Caryn-Lodewyk-2.jpg" alt="">
-                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
-                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
-                    individual.</p>
+                <h3>Luke Evertson</h3>
+                
+                <img src="https://i.ibb.co/xg3WSyP/C12-Luke-Evertson-2.jpg" alt="Luke" class="peer-imgs">
+                <p>Cheslyn Herman, an enthusiastic and charismatic individual who is truly hardworking and motivated to
+                    do the best and bring out the best in others. A pleasure to work and socialise with.</p>
             </div>
         </div>
+        <div class="startbtn">
+      <router-link to="/resume">
+
+        <button class="start">
+          Next Level
+        </button>
+      </router-link>
+    </div>
         <FooterComp />
     </div>
 </template>
@@ -391,6 +404,10 @@ h1,
 
 h2 {
     margin: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
 }
 
 .accordion {
@@ -438,8 +455,17 @@ button.accordion-button.collapsed {
     background: transparent;
     border: 1px solid white;
     margin-bottom: 15px;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
-
+.pro-link:hover {
+    box-shadow: 0 0 30px 5px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
 .buttons {
     display: flex;
     flex-direction: column;
@@ -454,10 +480,28 @@ button.accordion-button.collapsed {
     color: white;
     border: 1px solid white;
     border-radius: 0px;
-    height: 36em;
+    min-height: 36em;
     margin: 20px;
-    min-width: 400px !important;
+    min-width: 400px;
     text-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.reviews:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    box-shadow: 0 0 8px 3px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.peer-imgs {
+    margin-bottom: 25px;
+    width: 250px;
+    border-radius: 250px;
 }
 
 .slider {
@@ -465,6 +509,27 @@ button.accordion-button.collapsed {
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px;
-    
+
+}
+.startbtn {
+  margin-top: 30px;
+}
+
+.start {
+  padding: 15px;
+  width: 450px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.start:hover {
+  box-shadow: 0 0 30px 5px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 </style>

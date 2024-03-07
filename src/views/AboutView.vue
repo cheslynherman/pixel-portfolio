@@ -11,7 +11,7 @@
       <h1>Player Profile</h1>
       <div class="infoBlocks container-fluid">
         <div class="leftSide">
-          <h2>Personal Information</h2>
+          <h2 class="personal">Personal Information</h2>
           <ul>
             <li>Date Of Birth: 27-04-2000</li>
             <li>Location: Mitchells Plain, Cape Town</li>
@@ -20,8 +20,8 @@
             <li>Languages: English, Afrikaans</li>
             <li>Willing to Relocate: Yes</li>
           </ul>
-          <h2>Bio</h2>
-          <p>I aspire for greatness. I am someone who is disciplined,
+          <h2 >Bio</h2>
+          <p >I aspire for greatness. I am someone who is disciplined,
             hardworking and goal driven. My willingness to learn allows me to constantly seek new challenges and I can
             adapt to any environment. I work efficiently and effectively both within a team as well as individually.
 
@@ -40,12 +40,12 @@
           <div>
             <h2>Specialities</h2>
             <ul>
-              <li>Humor</li>
+              <li>Resiliance</li>
+              <li>Hardworking</li>
+              <li>Adaptability</li>
+              <li>Discipline</li>
               <li>Confidence</li>
-              <li>Looks</li>
-              <li>Stylish</li>
-              <li>Iconic</li>
-              <li>Greatest Of All Time</li>
+              <li>Humor</li>
             </ul>
           </div>
         </div>
@@ -55,62 +55,77 @@
 
     <div class="passionBoard">
       <h2>Passions & Visions</h2>
+      <p class="swipe">Swipe To What I Like And What My Future Holds</p>
       <div class="slider container-fluid">
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/RV2SYby3/crypto.jpg" alt="Crypto" />
+          <div class="card__content">
+            <h3>Crypto</h3>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/d1STWBj6/Unity-Dashboard-Kit.jpg" alt="Web Design" />
+          <div class="card__content">
+            <h3>Web <br>Design</h3>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/fyXxx8bS/Pin-de-Eliseo-Perez-en-Wallape-R-Portadas-de-revistas-de-arte-Dibujos-P-steres-vintage.jpg" alt="Marvel" />
+          <div class="card__content">
+            <h3>Marvel</h3>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/MKYnhnvQ/Jujutsu-Kaisen.jpg" alt="Anime" />
+          <div class="card__content">
+            <h3>Anime</h3>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/3wzjdkjw/Dark-knight-z51-instagram.jpg" alt="Supercars" />
+          <div class="card__content">
+            <h3>Supercars</h3>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card">
+          <img src="https://i.postimg.cc/MGB500pB/pubg-girl-wallpaper.jpg" alt="PUBG" />
+          <div class="card__content">
+            <h3>PUBG <br>Mobile</h3>
           </div>
         </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/0j9rXvdv/japan.jpg" alt="Japan" />
+          <div class="card__content">
+            <h3>Japan</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/k43kmXp0/40-Times-Designers-Went-All-In-And-Designed-The-Most-Fabulous-Examples-Of-Modern-Architecture.jpg" alt="Houses" />
+          <div class="card__content">
+            <h3>Real <br>Estate</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/HkZCMgPK/What-a-cool-gaming-setup-idea.jpg" alt="PC" />
+          <div class="card__content">
+            <h3>Future <br>PC Setup</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/Nj3cswCw/Trekking-the-Tour-Du-Mont-Blanc-Stunning-Photos.jpg" alt="Hiking" />
+          <div class="card__content">
+            <h3>Hiking</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/7L4KnxK9/8dd47022-d806-40d1-8b63-1cdd86f25deb.jpg" alt="Air Max" />
+          <div class="card__content">
+            <h3>Airmax <br>Collection</h3>
+          </div>
+        </div>
+        
       </div>
+      
     </div>
 
 
@@ -150,6 +165,7 @@ export default {
   background-size: cover;
   object-fit: cover;
   color: white;
+
 }
 
 .infoBlocks {
@@ -159,7 +175,9 @@ export default {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.personal {
+  text-align: left !important;
+}
 .rightSide {
   display: flex;
   flex-direction: column;
@@ -205,12 +223,70 @@ p {
 .picture {
   margin: 20px;
 }
+
 .slider {
   display: flex;
   overflow: auto;
   white-space: nowrap;
-  padding: 10px;
+  padding: 20px;
+  
 }
+.swipe {
+    font-size: 12px;
+}
+.card {
+  min-width: 16rem;
+  height: 50vh;
+  background-color: transparent !important;
+  color: #ede4e0 !important;
+  border-radius: 0px !important;
+  border: 0px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin: 20px;
+}
+.card img {
+  height: 50vh;
+  border-radius: 0px !important;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 5px #ffffff80;
+}
+.card__content {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  height: 100%;
+  padding: 20px !important;
+  box-sizing: border-box;
+  border-radius: 20px !important;
+  background-color: transparent;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+}
+.card__content h3 {
+  font-size: 24px;
+}
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+.card:hover img {
+  scale: 0;
+}
+
 .startbtn {
   margin-top: 30px;
 }
@@ -221,5 +297,22 @@ p {
   color: white;
   background: transparent;
   border: 1px solid white;
+  box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.start:hover {
+  box-shadow: 0 0 30px 5px white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+@media only screen and (max-width: 480px) {
+  .start {
+    width: 90%;
+  }
 }
 </style>
