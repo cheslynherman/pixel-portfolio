@@ -16,9 +16,9 @@
             <li>Date Of Birth: 27-04-2000</li>
             <li>Location: Mitchells Plain, Cape Town</li>
             <li class="mail">Email: cheslynherman1169@gmail.com</li>
+            <li>Mobile Number: 0662647512</li>
             <li>Gender: Male</li>
             <li>Languages: English, Afrikaans</li>
-            <li>Mobile Number: 0662647512</li>
           </ul>
           <h2 >Bio</h2>
           <p >I aspire for greatness. I am someone who is disciplined,
