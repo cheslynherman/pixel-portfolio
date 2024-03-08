@@ -375,6 +375,7 @@ import FooterComp from '@/components/FooterComp.vue';
 import NavBarComp from '@/components/NavBarComp.vue';
 
 export default {
+    
     components: {
         NavBarComp,
         FooterComp
@@ -394,6 +395,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+    
 }
 
 h1,

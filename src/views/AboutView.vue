@@ -165,7 +165,7 @@ export default {
   background-size: cover;
   object-fit: cover;
   color: white;
-
+ 
 }
 
 .infoBlocks {
