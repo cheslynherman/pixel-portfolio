@@ -18,7 +18,7 @@
             <li class="mail">Email: cheslynherman1169@gmail.com</li>
             <li>Gender: Male</li>
             <li>Languages: English, Afrikaans</li>
-            <li>Willing to Relocate: Yes</li>
+            <li>Mobile Number: 0662647512</li>
           </ul>
           <h2 >Bio</h2>
           <p >I aspire for greatness. I am someone who is disciplined,
