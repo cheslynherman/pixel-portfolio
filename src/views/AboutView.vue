@@ -15,7 +15,7 @@
           <ul>
             <li>Date Of Birth: 27-04-2000</li>
             <li>Location: Mitchells Plain, Cape Town</li>
-            <li>Email: cheslynherman1169@gmail.com</li>
+            <li class="mail">Email: cheslynherman1169@gmail.com</li>
             <li>Gender: Male</li>
             <li>Languages: English, Afrikaans</li>
             <li>Willing to Relocate: Yes</li>
@@ -37,7 +37,7 @@
             <img src="https://i.ibb.co/6rjzDSm/C12-Cheslyn-Herman.jpg" alt="Cheslyn" class="pic img-fluid">
 
           </div>
-          <div>
+          <div class="specialities">
             <h2>Specialities</h2>
             <ul>
               <li>Resiliance</li>
@@ -310,9 +310,64 @@ p {
     transition: all 0.2s ease-out;
 }
 
+@media only screen and (max-width: 1700px){
+  .infoBlocks {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 960px){
+  .infoBlocks {
+    width: 100%;
+    flex-direction: column;
+    border: none;
+  }
+  .leftSide {
+    border: none;
+    margin: auto;
+  }
+  .personal, ul {
+    text-align: center !important;
+    text-wrap: wrap;
+  }
+}
 @media only screen and (max-width: 480px) {
   .start {
     width: 90%;
   }
+}
+@media only screen and (max-width: 570px) {
+  .mail {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .mail {
+    font-size: 10px;
+  }
+  .rightSide {
+    margin: 0px !important;
+    width: 100%;
+}
+.leftSide {
+  width: 100% !important;
+}
+}
+@media only screen and (max-width: 372px) {
+  .mail {
+    font-size: 9px;
+  }
+  .personal {
+    font-size: 20px;
+    text-wrap: wrap;
+    margin: 0px;
+  }
+  .specialities {
+    width: 100%;
+    /* margin: 0px !important; */
+    /* padding: 0px !important; */
+}
+h2 {
+  margin: 10px;
+}
 }
 </style>

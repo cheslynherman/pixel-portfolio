@@ -532,4 +532,18 @@ button.accordion-button.collapsed {
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
+
+@media only screen and (max-width: 570px) {
+  .pro-link {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .start {
+    width: 90%;
+  }
+  .reviews {
+    min-width: 300px;
+  }
+}
 </style>

@@ -565,4 +565,61 @@ p {
 /* .card-img-top {
  
 } */
+@media only screen and (max-width: 1340px) {
+  .skill-imgs, .skill-imgs2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .blocks {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 750px) {
+   .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 590px) {
+ 
+  .education.container-fluid {
+    width: 89%;
+}
+}
+@media only screen and (max-width: 480px) {
+  .start, .cv-button {
+    width: 90%;
+  }
+  
+}
+@media only screen and (max-width: 450px) {
+  .timeline-panel {
+    padding: 10px !important;
+}
+.timeline-panel p {
+  font-size: 12px;
+}
+h4.timeline-title {
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 380px) {
+  .timeline-panel p {
+  font-size: 9px;
+}
+h4.timeline-title {
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 350px) {
+  .card {
+    width: 90%;
+  }
+}
 </style>

@@ -94,4 +94,9 @@ input:hover, textarea:hover {
 input {
     height: 80px;
 }
+@media only screen and (max-width: 425px) {
+  ::placeholder {
+    font-size: 13px;
+  }
+}
 </style>
