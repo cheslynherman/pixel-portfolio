@@ -315,8 +315,9 @@
                 <h3>Timothy Barry</h3>
 
                 <img src="https://i.ibb.co/TRkVdgD/C12-Timothy-Barry-2.jpg" alt="Timothy Barry" class="peer-imgs">
-                <p>Have had the pleasure of working alongside Cheslyn and he is a great personality to be around. He is
-                    a very kind person and also very genuine.</p>
+                <p>One of Cheslyn's strong suits are communication and teamwork. I've had the pleasure of working with
+                    Cheslyn and what I can say from our interactions is that he is a dedicated and hardworking
+                    individual.</p>
             </div>
             <div class="reviews container-fluid">
                 <h3>Ethan Henry Lesar</h3>
@@ -351,20 +352,20 @@
             </div>
             <div class="reviews container-fluid">
                 <h3>Luke Evertson</h3>
-
+                
                 <img src="https://i.ibb.co/xg3WSyP/C12-Luke-Evertson-2.jpg" alt="Luke" class="peer-imgs">
                 <p>Cheslyn Herman, an enthusiastic and charismatic individual who is truly hardworking and motivated to
                     do the best and bring out the best in others. A pleasure to work and socialise with.</p>
             </div>
         </div>
         <div class="startbtn">
-            <router-link to="/resume">
+      <router-link to="/resume">
 
-                <button class="start">
-                    Next Level
-                </button>
-            </router-link>
-        </div>
+        <button class="start">
+          Next Level
+        </button>
+      </router-link>
+    </div>
         <FooterComp />
     </div>
 </template>
@@ -374,7 +375,7 @@ import FooterComp from '@/components/FooterComp.vue';
 import NavBarComp from '@/components/NavBarComp.vue';
 
 export default {
-
+    
     components: {
         NavBarComp,
         FooterComp
@@ -394,7 +395,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-
+    
 }
 
 h1,
@@ -461,14 +462,12 @@ button.accordion-button.collapsed {
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-
 .pro-link:hover {
     box-shadow: 0 0 30px 5px white;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
-
 .buttons {
     display: flex;
     flex-direction: column;
@@ -493,7 +492,6 @@ button.accordion-button.collapsed {
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-
 .reviews:hover {
     transform: scale(1.05);
     transition: all 0.5s;
@@ -502,7 +500,6 @@ button.accordion-button.collapsed {
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
-
 .peer-imgs {
     margin-bottom: 25px;
     width: 250px;
@@ -516,43 +513,39 @@ button.accordion-button.collapsed {
     padding: 10px;
 
 }
-
 .startbtn {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .start {
-    padding: 15px;
-    width: 450px;
-    color: white;
-    background: transparent;
-    border: 1px solid white;
-    box-shadow: 0 0 0 0 transparent;
+  padding: 15px;
+  width: 450px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 0 0 0 0 transparent;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-
 .start:hover {
-    box-shadow: 0 0 30px 5px white;
+  box-shadow: 0 0 30px 5px white;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 
 @media only screen and (max-width: 570px) {
-    .pro-link {
-        width: 90%;
-    }
+  .pro-link {
+    width: 90%;
+  }
 }
-
 @media only screen and (max-width: 480px) {
-    .start {
-        width: 90%;
-    }
-
-    .reviews {
-        min-width: 300px;
-    }
+  .start {
+    width: 90%;
+  }
+  .reviews {
+    min-width: 300px;
+  }
 }
 </style>
